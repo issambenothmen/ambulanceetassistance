@@ -600,12 +600,6 @@ main .recent-orders a {
   main .recent-orders table {
     width: 83vw;
   }
-  main table thead tr th:last-child, main table thead tr th:first-child {
-    display: none;
-  }
-  main table tbody tr td:last-child, main table tbody tr td:first-child {
-    display: none;
-  }
 }
 
 /* ================= MEDIA QUERIES ================ */
@@ -651,10 +645,11 @@ main .recent-orders a {
     left: -15%;
     width: 50%;
   }
-  .deconnecter{
-    font-size:10px;
+  .deconnecter {
+    font-size: 10px;
     width: 30%;
-  } aside .sidebar a:last-child {
+  }
+  aside .sidebar a:last-child {
     position: absolute;
     bottom: 5rem;
   }
@@ -677,6 +672,7 @@ main .recent-orders a {
   main .recent-orders table {
     width: 100%;
     margin: 0;
+    overflow: scroll;
   }
   .right {
     width: 94%;
